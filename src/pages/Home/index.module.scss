@@ -1,0 +1,26 @@
+.pageContainer {
+  width: 100%;
+  height: 100%;
+
+  .contentContainer {
+    padding-top: 70px;
+    width: 100%;
+    height: 100%;
+
+    .startContainer {
+      display: flex;
+      width: 100%;
+      height: 100%;
+
+      div {
+        flex: 1;
+      }
+
+      .logoContainer {
+        height: 100%;
+        background-size: cover;
+        background-image: url("../../assets/cxkinaewiaq2mq8.jpg");
+      }
+    }
+  }
+}
