@@ -1,0 +1,19 @@
+.container {
+  padding-inline: 70px;
+  h1 {
+    font-weight: normal;
+  }
+  .blockList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.137);
+
+    .block {
+      border: solid 1px gray;
+      padding: 10px 20px;
+    }
+  }
+}

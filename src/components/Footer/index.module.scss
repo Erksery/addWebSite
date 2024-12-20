@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-inline: 50px;
+  padding-top: 30px;
+  height: 250px;
+  background-color: #181818;
+  h2 {
+    font-weight: normal;
+  }
+  img {
+    width: 300px;
+  }
+  p {
+    font-size: 11px;
+    text-align: end;
+  }
+}

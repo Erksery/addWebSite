@@ -1,0 +1,13 @@
+.container {
+  padding-inline: 70px;
+  h1 {
+    font-weight: normal;
+  }
+  .blockList {
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

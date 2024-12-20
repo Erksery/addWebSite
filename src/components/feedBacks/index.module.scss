@@ -1,0 +1,25 @@
+.container {
+  margin-top: 150px;
+  padding-inline: 70px;
+  h2 {
+    font-weight: normal;
+    font-size: 40px;
+  }
+  .blockList {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .block {
+      padding: 10px;
+      box-sizing: border-box;
+      border: solid 1px gray;
+      label {
+        color: gray;
+        font-weight: 500;
+        font-size: 14px;
+      }
+    }
+  }
+}
